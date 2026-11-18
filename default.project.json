@@ -1,10 +1,10 @@
 {
-  "name": "house-dodge",
+  "name": "hatch-a-brainrot-egg",
   "tree": {
     "$className": "DataModel",
-    "Players": {
-      "$properties": {
-        "CharacterAutoLoads": false
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
       }
     },
     "ServerScriptService": {
@@ -42,6 +42,28 @@
             512,
             20,
             512
+          ]
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.27451,
+            0.69020,
+            0.38431
+          ],
+          "Neutral": true,
+          "Position": [
+            0,
+            0.5,
+            26
+          ],
+          "Size": [
+            10,
+            1,
+            10
           ]
         }
       }
